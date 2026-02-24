@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    
+}
+
+body {
+    height: 100vh;
+    background-color: #88BDF2;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    overflow: hidden;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dice {
+    background-color: #6A89A7;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    height: 500px;
+}
+
+#firstHeading {
+    font-size: 40px;
+    padding-top: 15px;
+    color: #384959;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 40px;
+    background-color: #384959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #516a82;
+    transform: scale(1.1);
+    transition: 0.5ms;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(1);
+    background-color: #384959;
+}
+
+#value {
+    color: #384959;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+#diceImage {
+    margin-top: 65px;
+    border-radius: 10px;
+}
